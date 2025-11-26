@@ -24,7 +24,7 @@ namespace Tyuiu.VlasenkoAE.Sprint5.Task1.V22.Lib
             {
                 if (x == 2)
                 {
-                    y = Math.Sin(x) + 2 * x;
+                    y = 0;
                 }
                 else
                 {
