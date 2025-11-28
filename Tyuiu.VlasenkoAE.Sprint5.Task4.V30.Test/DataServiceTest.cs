@@ -10,7 +10,7 @@ namespace Tyuiu.VlasenkoAE.Sprint5.Task4.V30.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         {
-            string path = @"С:\DataSprint5\InPutDataFileTask4V30.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask4V30.txt";
             FileInfo fileinfo = new FileInfo(path);
             bool fileExists = fileinfo.Exists;
             bool wait = true;

@@ -21,7 +21,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
 
-string path = @"С:\DataSprint5\InPutDataFileTask4V30.txt";
+string path = @"C:\DataSprint5\InPutDataFileTask4V30.txt";
 Console.WriteLine("Данные находятся в файле: " + path);
 
 Console.WriteLine("***************************************************************************");
