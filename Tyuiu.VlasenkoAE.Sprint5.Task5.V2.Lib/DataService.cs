@@ -21,7 +21,7 @@ namespace Tyuiu.VlasenkoAE.Sprint5.Task5.V2.Lib
                     for (int i = 0; i < values.Length; i++)
                     {
                         double x = Convert.ToDouble(values[i]);
-                        if (x >= 0)
+                        if (x > 0)
                         {
                             sum += x;
                             count++;
