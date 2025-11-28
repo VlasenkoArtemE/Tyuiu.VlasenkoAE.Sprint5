@@ -1,4 +1,4 @@
-﻿using Tyuiu.VlasenkoAE.Sprint5.Task4.V30.Lib;
+﻿using Tyuiu.VlasenkoAE.Sprint5.Task5.V2.Lib;
 
 DataService ds = new DataService();
 
@@ -6,21 +6,21 @@ Console.Title = "Спринт #5 | Выполнил: Власенко А. Е. | 
 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #5                                                               *");
-Console.WriteLine("* Тема: Чтение данных из текстового файла                                 *");
-Console.WriteLine("* Задание #4                                                              *");
-Console.WriteLine("* Вариант #30                                                             *");
+Console.WriteLine("* Тема: Чтение набора данных из текстового файла                          *");
+Console.WriteLine("* Задание #5                                                              *");
+Console.WriteLine("* Вариант #2                                                              *");
 Console.WriteLine("* Выполнил: Власенко Артём Евгеньевич | ИСТНб-25-1                        *");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* УСЛОВИЕ:                                                                *");
-Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask4V30.txt в котором есть      *");
-Console.WriteLine("* вещественное значение. Прочитать значение из файла и подставить вместо  *");
-Console.WriteLine("* Х в формуле. Вычислить значение по формуле и вернуть полученный         *");
-Console.WriteLine("* результат на консоль.                                                   *");
+Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask5V2.txt в котором есть       *");
+Console.WriteLine("* набор значений. Найти среднее всех положительных значений. Полученный   *");
+Console.WriteLine("* результат вывести на консоль. У вещественных значений округлить до трёх *");
+Console.WriteLine("* знаков после запятой.                                                   *");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
 
-string path = @"C:\DataSprint5\InPutDataFileTask4V30.txt";
+string path = @"C:\DataSprint5\InPutDataFileTask5V2.txt";
 Console.WriteLine("Данные находятся в файле: " + path);
 
 Console.WriteLine("***************************************************************************");
